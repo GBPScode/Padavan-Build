@@ -33,7 +33,7 @@ jobs:
           - build_variant: "mt7621-usb-1"
             targets: "E8820V2"
           - build_variant: "mt7621"
-            targets: "JCG-Q20"
+            targets: "JCG-Q20-uboot"
     steps:
       - name: Checkout main            # 导入主分支
         uses: actions/checkout@v2
